@@ -69,5 +69,5 @@ A aplicação possui as seguintes dependências:
 - Spring Boot
 - Spring Web
 - Spring Data JPA
-- Spring Validation
+- Spring Validation <br/>
 <b> Certifique-se de ter as dependências corretamente configuradas para a execução da aplicação. </b> <br/>
