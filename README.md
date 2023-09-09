@@ -24,15 +24,15 @@ Endpoint: GET /api/notaMaiorIgual/{nota} <br/>
 Description: Returns the shows whose note is greater than or equal to the value provided.
 6. Register a show
 Endpoint: POST /api <br/>
-Description: Adds a new show to the catalog. 
+Description: Adds a new show to the catalog. <br/>
 Request body: Show object containing the details of the show to be registered.
 7. Editing a show
 Endpoint: PUT /api <br/>
-Description: Edits the details of an existing show in the catalog. 
+Description: Edits the details of an existing show in the catalog. <br/>
 Request body: Show object containing the updated show details.
 8. Remove a show
 Endpoint: DELETE /api/{id} <br/>
-Description: Removes a show from the catalog based on the ID provided. 
+Description: Removes a show from the catalog based on the ID provided. <br/>
 Parameter: id - ID of the show to be removed.
 9. Sort shows by name
 Endpoint: GET /api/odernarNomes <br/>
@@ -58,14 +58,14 @@ Endpoint: GET /welcome <br/>
 Description: Returns a generic welcome message.
 16.  Welcome with Name
 Endpoint: GET /welcome/{name}  <br/>
-Description: Returns a personalized welcome message based on the name provided.
+Description: Returns a personalized welcome message based on the name provided.<br/>
 Parameter: name - Name to customize the welcome message. Select all movies
 
 ### Project structure
-The application is organized into packages as follows:
-br.com.projeto.api.controle: Contains the REST controllers that define the API endpoints. 
-br.com.projeto.api.modelo: Contains the model classes, including the Show class. 
-br.com.projeto.api.repositorio: Contains the Repository interface for data access. 
+The application is organized into packages as follows:<br/>
+br.com.projeto.api.controle: Contains the REST controllers that define the API endpoints. <br/>
+br.com.projeto.api.modelo: Contains the model classes, including the Show class. <br/>
+br.com.projeto.api.repositorio: Contains the Repository interface for data access. <br/>
 br.com.projeto.api.servico: Contains the Service class that implements the API's functionalities. 
  
 ### Requirements
@@ -73,7 +73,7 @@ The application has the following dependencies:
 - Spring Boot
 - Spring Web
 - Spring Data JPA
-- Spring validation 
+- Spring validation <br/>
  <b> Make sure you have the dependencies configured correctly for the application to run. </b>
 
 </details>
