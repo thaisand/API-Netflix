@@ -74,6 +74,7 @@ The application has the following dependencies:
 - Spring Web
 - Spring Data JPA
 - Spring validation <br/>
+
  <b> Make sure you have the dependencies configured correctly for the application to run. </b>
 
 </details>
