@@ -7,56 +7,56 @@ Please select a language:
 The application is an API that provides functionality related to the Netflix catalog, including movies and TV shows. The API is implemented using the Spring Boot framework in Java.
 
 ### Features
-1. Select all Movies
+1. Select all Movies <br/>
 Endpoint: GET /api/films <br/>
 Description: Returns all the films in the catalog.
-2. Select all TV shows
+2. Select all TV shows<br/>
 Endpoint: GET /api/tvshows <br/>
 Description: Returns all the TV shows in the catalog.
-3. Select by name
+3. Select by name <br/>
 Endpoint: GET /api/{name} <br/>
 Description: Returns the shows that match the name provided.
-4. Select by release year
+4. Select by release year <br/>
 Endpoint: GET /api/{year} <br/>
 Description: Returns the shows whose release year is greater than or equal to the value provided.
-5. Select by note
+5. Select by note <br/>
 Endpoint: GET /api/notaMaiorIgual/{nota} <br/>
 Description: Returns the shows whose note is greater than or equal to the value provided.
-6. Register a show
+6. Register a show <br/>
 Endpoint: POST /api <br/>
 Description: Adds a new show to the catalog. <br/>
 Request body: Show object containing the details of the show to be registered.
-7. Editing a show
+7. Editing a show <br/>
 Endpoint: PUT /api <br/>
 Description: Edits the details of an existing show in the catalog. <br/>
 Request body: Show object containing the updated show details.
-8. Remove a show
+8. Remove a show <br/>
 Endpoint: DELETE /api/{id} <br/>
 Description: Removes a show from the catalog based on the ID provided. <br/>
 Parameter: id - ID of the show to be removed.
-9. Sort shows by name
+9. Sort shows by name <br/>
 Endpoint: GET /api/odernarNomes <br/>
 Description: Returns the shows in the catalog sorted alphabetically by title.
-10.   Show counter
+10.   Show counter <br/>
 Endpoint: GET /api/counter <br/>
 Description: Returns the total number of shows in the catalog.
-11.  Movie counter
+11.  Movie counter <br/>
 Endpoint: GET /api/films/counter <br/>
 Description: Returns the total number of movies in the catalog.
-12.  TV shows counter
+12.  TV shows counter <br/>
 Endpoint: GET /api/tvshows/counter <br/>
 Description: Returns the total number of TV shows in the catalog.
-13.  API status
+13.  API status <br/>
 Endpoint: GET /status <br/>
-Description: Returns the API status.
+Description: Returns the API status. <br/>
 Response: ResponseEntity with HTTP status 201 (CREATED).
-14.  Home
+14.  Home <br/>
 Endpoint: GET /      <br/>
 Description: Returns a welcome message.
-15.  Welcome
+15.  Welcome <br/>
 Endpoint: GET /welcome <br/>
 Description: Returns a generic welcome message.
-16.  Welcome with Name
+16.  Welcome with Name <br/>
 Endpoint: GET /welcome/{name}  <br/>
 Description: Returns a personalized welcome message based on the name provided.<br/>
 Parameter: name - Name to customize the welcome message. Select all movies
