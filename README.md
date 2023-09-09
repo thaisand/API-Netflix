@@ -1,3 +1,86 @@
+Please select a language: 
+
+<details>
+  <summary> English  </summary>
+
+# Netflix-API
+The application is an API that provides functionality related to the Netflix catalog, including movies and TV shows. The API is implemented using the Spring Boot framework in Java.
+
+### Features
+1. Select all Movies
+Endpoint: GET /api/films <br/>
+Description: Returns all the films in the catalog.
+2. Select all TV shows
+Endpoint: GET /api/tvshows <br/>
+Description: Returns all the TV shows in the catalog.
+3. Select by name
+Endpoint: GET /api/{name} <br/>
+Description: Returns the shows that match the name provided.
+4. Select by release year
+Endpoint: GET /api/{year} <br/>
+Description: Returns the shows whose release year is greater than or equal to the value provided.
+5. Select by note
+Endpoint: GET /api/notaMaiorIgual/{nota} <br/>
+Description: Returns the shows whose note is greater than or equal to the value provided.
+6. Register a show
+Endpoint: POST /api <br/>
+Description: Adds a new show to the catalog. 
+Request body: Show object containing the details of the show to be registered.
+7. Editing a show
+Endpoint: PUT /api <br/>
+Description: Edits the details of an existing show in the catalog. 
+Request body: Show object containing the updated show details.
+8. Remove a show
+Endpoint: DELETE /api/{id} <br/>
+Description: Removes a show from the catalog based on the ID provided. 
+Parameter: id - ID of the show to be removed.
+9. Sort shows by name
+Endpoint: GET /api/odernarNomes <br/>
+Description: Returns the shows in the catalog sorted alphabetically by title.
+10.   Show counter
+Endpoint: GET /api/counter <br/>
+Description: Returns the total number of shows in the catalog.
+11.  Movie counter
+Endpoint: GET /api/films/counter <br/>
+Description: Returns the total number of movies in the catalog.
+12.  TV shows counter
+Endpoint: GET /api/tvshows/counter <br/>
+Description: Returns the total number of TV shows in the catalog.
+13.  API status
+Endpoint: GET /status <br/>
+Description: Returns the API status.
+Response: ResponseEntity with HTTP status 201 (CREATED).
+14.  Home
+Endpoint: GET /      <br/>
+Description: Returns a welcome message.
+15.  Welcome
+Endpoint: GET /welcome <br/>
+Description: Returns a generic welcome message.
+16.  Welcome with Name
+Endpoint: GET /welcome/{name}  <br/>
+Description: Returns a personalized welcome message based on the name provided.
+Parameter: name - Name to customize the welcome message. Select all movies
+
+### Project structure
+The application is organized into packages as follows:
+br.com.projeto.api.controle: Contains the REST controllers that define the API endpoints. 
+br.com.projeto.api.modelo: Contains the model classes, including the Show class. 
+br.com.projeto.api.repositorio: Contains the Repository interface for data access. 
+br.com.projeto.api.servico: Contains the Service class that implements the API's functionalities. 
+ 
+### Requirements
+The application has the following dependencies:
+- Spring Boot
+- Spring Web
+- Spring Data JPA
+- Spring validation 
+ <b> Make sure you have the dependencies configured correctly for the application to run. </b>
+
+</details>
+
+<details>
+  <summary> Português  </summary>
+
 # API-Netflix
 A aplicação é uma API que fornece funcionalidades relacionadas ao catálogo da Netflix, incluindo filmes e programas de TV. A API é implementada usando o framework Spring Boot em Java.
 
@@ -71,3 +154,5 @@ A aplicação possui as seguintes dependências:
 - Spring Data JPA
 - Spring Validation <br/>
 <b> Certifique-se de ter as dependências corretamente configuradas para a execução da aplicação. </b> <br/>
+
+</details>
